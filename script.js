@@ -1,0 +1,1 @@
+background = document.getElememtById("background");
