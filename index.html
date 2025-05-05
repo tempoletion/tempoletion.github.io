@@ -1,22 +1,35 @@
 <!doctype html>
 <html>
   <head>
+    <!-- for styles without caching-->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>The Tempoletion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="icon" href="./favicon.jpg" title="myIcon" type="image/jpg">	
+    <link rel="icon" href="./favicon.jpg" title="myIcon" type="image/jpg">
   </head>
   <body>
-    <div id="header"></div>
-    <canvas id="background" class="background"></canvas>
-    <h1 id="header" class="header">tempoletion</h1>
-    <p id="slang">a man</p>
-    <p>this is my website,I will update it more soon</p>
-    <footer>
+    <div id="top-bar"></div>
+    <div id="main-view">
+      <canvas id="background" class="background" height="1080" width="1920"></canvas>
+      <h1 id="header" class="header">tempoletion</h1>
+      <p id="slang">a man</p>
+      <p id="p-note">this is my website,I will update it more soon</p>
+    </div>
+    <div id="main-content">
+      <p>here my project,it empty rn</p>
+    </div>
+    <footer id="footer">
       <p>here is my social media</p>
-      <p>uhhbbh</p>
-      <p><a id="facebook"></a></p>
+      <ul>
+	<li><p><a id="facebook" href="https://www.facebook.com/share/194dDj5aYz/">Facebook</a></p></li>
+	<li><p><a id="youtube" href="https://m.youtube.com/@tempoletiongaming">Youtube</a></p></li>
+      </ul>
     </footer>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script type="text/javascript" src="helper.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
